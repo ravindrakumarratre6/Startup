@@ -1,5 +1,4 @@
 import "../Css/Home.css";
-
 const Home = () => {
   return (
     <div className="home-container">
@@ -19,19 +18,17 @@ const Home = () => {
           </button>
         </div>
       </div>
-
+{/* Business Model */}
       <div className="business-model-container">
-        <div className="business-model-heading">
-          <p>
-            Explore By <b>Business Model</b>{" "}
-          </p>
-        </div>
+          <h1>
+            Explore By <b>Business Model</b>
+          </h1>
         <div className="business-model-list">
           <div>
             <button>B2B - Business To Business</button>
           </div>
           <div>
-            {" "}
+          
             <button>B2C - Business To Consumer</button>
           </div>
           <div>
@@ -49,19 +46,18 @@ const Home = () => {
           <div>
             <button>C2A - Customer To Administration</button>
           </div>
-          <div className="last-btn">
-            {" "}
+          <div className="last-btn">    
             <button>Other</button>
           </div>
         </div>
       </div>
-
+{/*  Interested In*/}
       <div className="interested-container">
-        <div className="interested-heading">
-          <p>
+    
+          <h1>
             Explore By <b>Interested In</b>
-          </p>
-        </div>
+          </h1>
+       
         <div className="interested-list">
           <div>
             <button>Incubation</button>
@@ -92,13 +88,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/* Stage */}
       <div className="stage-container">
-        <div className="stage-heading">
-          <p>
+       
+          <h1>
             Explore By <b>Stage</b>
-          </p>
-        </div>
+          </h1>
         <div className="stage-list">
           <div>
             <button>Ideation</button>
@@ -114,13 +109,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/* Funding Type */}
       <div className="funding-type-container">
-        <div className="funding-type-heading">
-          <p>
+          <h1>
             Explore By <b>Funding Type</b>
-          </p>
-        </div>
+          </h1>
         <div className="funding-type-list">
           <div>
             <button>Crowd Funded</button>
@@ -157,13 +150,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/* Business Nature */}
       <div className="business-nature-container">
-        <div className="business-nature-heading">
-          <p>
+          <h1>
             Explore By <b>Business Nature</b>{" "}
-          </p>
-        </div>
+          </h1>
         <div className="business-nature-list">
           <div>
             <button>Service</button>
@@ -176,13 +167,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/*Investment Nature*/}
       <div className="investment-nature-container">
-        <div className="investment-nature-heading">
-          <p>
+          <h1>
             Explore By <b>Investment Nature</b>
-          </p>
-        </div>
+          </h1>
+
 
         <div className="investment-nature-list">
           <div>
