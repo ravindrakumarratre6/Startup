@@ -348,6 +348,9 @@ label {
   background-color: red;
 }
 
+.common:nth-child(2n+1){
+  background-image: url(https://startupz.world/images/other/background-thedir-cover.jpg);
+}
 /* MEDIA QUERIES */
 
 /* Styles for screens with a maximum width of 768px */
