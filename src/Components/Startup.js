@@ -1,5 +1,4 @@
-import "../Css/Startup.css"
-
+import "../Css/Startup.css";
 
 const Startup = () => {
   return (
@@ -14,75 +13,105 @@ const Startup = () => {
           provide a community for startups to connect, collaborate, and grow.
         </p>
       </div>
-      <div className="startup-list">
-        <div>
+
+      <div class="startup-list">
+        <div class="startup-item">
+          <span class="numbers">1</span>
           <h1>Networking Opportunities</h1>
-          <p>
-            Our platform connects you with a diverse community of entrepreneurs,
-            investors, and industry experts. This gives you the opportunity to
-            meet new people, learn from their experiences, and make valuable
-            connections that can help your business grow.
-          </p>
+
+          <div class="content">
+            <p>
+              Our platform connects you with a diverse community of
+              entrepreneurs, investors, and industry experts. This gives you the
+              opportunity to meet new people, learn from their experiences, and
+              make valuable connections that can help your business grow.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="startup-item">
+          <span class="numbers">2</span>
           <h1>Access to Capital</h1>
-          <p>
-            As a startup, access to funding can be a major hurdle. We aim to
-            help bridge that gap by connecting startups with investors who are
-            interested in funding innovative and promising businesses.
-          </p>
+          <div class="content">
+            <p>
+              As a startup, access to funding can be a major hurdle. We aim to
+              help bridge that gap by connecting startups with investors who are
+              interested in funding innovative and promising businesses.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="startup-item">
+          <span class="numbers">3</span>
           <h1>Mentorship and Support</h1>
-          <p>
-            Starting a business can be a daunting task, and it's important to
-            have someone to guide and support you along the way. Our platform
-            provides access to experienced mentors and advisors who can offer
-            valuable advice and support.
-          </p>
+          <div class="content">
+            <p>
+              Starting a business can be a daunting task, and it's important to
+              have someone to guide and support you along the way. Our platform
+              provides access to experienced mentors and advisors who can offer
+              valuable advice and support.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="startup-item">
+          <span class="numbers">4</span>
           <h1>Educational Resources</h1>
-          <p>
-            We understand that starting a business requires a lot of learning,
-            so we provide access to educational resources such as webinars,
-            tutorials, and workshops. These resources cover a wide range of
-            topics, from marketing and finance to legal and compliance.
-          </p>
+          <div class="content">
+            <p>
+              We understand that starting a business requires a lot of learning,
+              so we provide access to educational resources such as webinars,
+              tutorials, and workshops. These resources cover a wide range of
+              topics, from marketing and finance to legal and compliance.
+            </p>
+          </div>
         </div>
-        <div>
-          <h1>Exclusive Discounts & Deals</h1>
-          <p>
-            As a member of our community, you'll have access to exclusive
-            discounts and deals on products and services that can help your
-            business grow. From office space to marketing services, we've got
-            you covered.
-          </p>
+        <div class="startup-item">
+          <span class="numbers">5</span>
+          <h1>Exclusive Discounts &amp; Deals</h1>
+
+          <div class="content">
+            <p>
+              As a member of our community, you'll have access to exclusive
+              discounts and deals on products and services that can help your
+              business grow. From office space to marketing services, we've got
+              you covered.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="startup-item">
+          <span class="numbers">6</span>
           <h1>Community Events</h1>
-          <p>
-            We organize various events such as workshops, meetups, and
-            conferences, where startups can learn, network, and showcase their
-            products or services.
-          </p>
+          <div class="content">
+            <p>
+              We organize various events such as workshops, meetups, and
+              conferences, where startups can learn, network, and showcase their
+              products or services.
+            </p>
+          </div>
         </div>
-        <div>
-          <h1>Access to Government Grants & Schemes</h1>
-          <p>
-            Our platform provides access to various government grants and
-            schemes which can be helpful for the startup in their initial stages
-          </p>
+        <div class="startup-item">
+          <span class="numbers">7</span>
+          <h1>Access to Government Grants &amp; Schemes</h1>
+
+          <div class="content">
+            <p>
+              Our platform provides access to various government grants and
+              schemes which can be helpful for the startup in their initial
+              stages.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="startup-item">
+          <span class="numbers">8</span>
           <h1>Collaboration with other startups</h1>
-          <p>
-            Our platform encourages collaboration between startups, which can
-            lead to the formation of new partnerships, joint ventures and even
-            merge of companies.
-          </p>
+          <div class="content">
+            <p>
+              Our platform encourages collaboration between startups, which can
+              lead to the formation of new partnerships, joint ventures, and
+              even mergers of companies.
+            </p>
+          </div>
         </div>
       </div>
+
       <div className="startup-paragaraph">
         <p>
           In addition to these benefits, we also offer a variety of tools and
@@ -101,12 +130,12 @@ const Startup = () => {
       </div>
       <div>
         <ul className="startup-meter">
-          <li> 
+          <li>
             <h3> 20,956,732</h3>
             <p>Registed Startups3</p>
           </li>
           <li>
-          <h3> 9,050,656</h3>
+            <h3> 9,050,656</h3>
             <p>Investors </p>
           </li>
         </ul>
