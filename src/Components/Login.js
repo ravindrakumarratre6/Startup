@@ -9,7 +9,7 @@ const Login = () => {
         </p>
       </div>
       <div className="login-field">
-        <div className="username"><h4>Username:*</h4></div>
+        <div className="usernam"><h4>Username:*</h4></div>
         <div><input type="text" id="username" placeholder="Enter Your or Mobile Number" required /></div>
         <div> <button>LOG IN</button></div>
       </div>
