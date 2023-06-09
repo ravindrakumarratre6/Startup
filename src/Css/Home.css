@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap");
+
 body {
   font-family: "Work Sans", sans-serif;
 }
@@ -7,10 +8,13 @@ body {
 
 .home-container {
   /* Styles for home container */
+  /* width: 100%; */
+  border: 2px solid black;
+  margin-top: 10px;
 }
 
 .scroll-container {
-    margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 .firsth1 {
@@ -53,8 +57,16 @@ body {
   margin: 0;
   font-size: 5rem;
   font-weight: 400;
-}
 
+}
+.firsth1{
+  position: relative;
+  top: 8rem;
+}
+.secondh1{
+  position: relative;
+  top: 8rem;
+}
 /* Home scroll container */
 
 .home-scroll-container {
@@ -68,10 +80,10 @@ body {
 .home-scroll-container::after {
   content: "";
   position: absolute;
-  bottom: -16rem;
+  bottom: -10rem;
   left: 0;
   right: 0;
-  height: 20rem; /* Adjust the height of the blur effect */
+  height: 25rem; /* Adjust the height of the blur effect */
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0) 0%,
@@ -80,21 +92,25 @@ body {
   filter: blur(7px); /* Adjust the blur radius */
 }
 
-.home-text {
+.home-text p{
   font-size: 1.5rem;
-  margin-left: -23rem;
-  margin-top: 1rem;
+  margin-right:30rem;
+   position: relative;
+   right: 5rem;
+   top: 5rem;
 }
 
 .home-input {
   padding: 20px;
   margin-top: 0.5rem;
+
 }
 
 .home-input input {
   width: 55%;
   height: 7rem;
   margin-right: 1rem;
+  margin-top: 7rem;
 }
 
 .home-input button {
@@ -120,13 +136,6 @@ label {
   padding: 20px;
 }
 
-.business-model-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 20rem;
-}
-
 .business-model-list {
   display: flex;
   flex-wrap: wrap;
@@ -147,6 +156,11 @@ label {
   border: 0.001rem solid rgb(220, 217, 217);
 }
 
+.business-model-list button:hover {
+  color: white;
+  background-color: red;
+}
+
 .last-btn button {
   padding: 1.5rem;
 }
@@ -157,18 +171,12 @@ label {
   padding: 20px;
 }
 
-.interested-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 20rem;
-}
 
 .interested-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .interested-list div {
@@ -178,10 +186,15 @@ label {
 .interested-list button {
   width: 100%;
   padding: 15px;
-  margin: 5px;
-  font-size: 1.55rem;
+  margin: 15px;
+  font-size: 1.5rem;
   border-radius: 2%;
   border: 0.001rem solid rgb(220, 217, 217);
+}
+
+.interested-list button:hover {
+  color: white;
+  background-color: red;
 }
 
 .interested-lastbtn button {
@@ -194,12 +207,6 @@ label {
   padding: 20px;
 }
 
-.stage-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 25rem;
-}
 
 .stage-list {
   display: flex;
@@ -221,6 +228,11 @@ label {
   border: 0.001rem solid rgb(220, 217, 217);
 }
 
+.stage-list button:hover {
+  color: white;
+  background-color: red;
+}
+
 /* FOUNDED-TYPE */
 
 .funding-type-container {
@@ -229,12 +241,6 @@ label {
   padding: 20px;
 }
 
-.funding-type-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 20rem;
-}
 
 .funding-type-list {
   display: flex;
@@ -253,6 +259,11 @@ label {
   font-size: 1rem;
   font-weight: bold;
   border: 0.001rem solid rgb(220, 217, 217);
+}
+
+.funding-type-list button:hover {
+  color: white;
+  background-color: red;
 }
 
 .founding-type-fbtn button {
@@ -281,12 +292,6 @@ label {
   padding: 10px;
 }
 
-.business-nature-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 20rem;
-}
 
 .business-nature-list {
   display: flex;
@@ -304,6 +309,11 @@ label {
   border: 0.001rem solid rgb(220, 217, 217);
 }
 
+.business-nature-list button:hover {
+  color: white;
+  background-color: red;
+}
+
 /* INVESTMENT-NATURE */
 
 .investment-nature-container {
@@ -312,12 +322,6 @@ label {
   padding: 20px;
 }
 
-.investment-nature-heading p {
-  font-size: 2.5rem;
-  position: relative;
-  top: 1rem;
-  right: 20rem;
-}
 
 .investment-nature-list {
   display: flex;
@@ -339,6 +343,11 @@ label {
   border: 0.001rem solid rgb(220, 217, 217);
 }
 
+.investment-nature-list button:hover {
+  color: white;
+  background-color: red;
+}
+
 /* MEDIA QUERIES */
 
 /* Styles for screens with a maximum width of 768px */
@@ -347,41 +356,51 @@ label {
   .scroll-container .firsth1 {
     font-size: 4rem;
   }
-  
+
   .scroll-container .secondh1 {
     font-size: 4rem;
   }
-  
+
   .home-input input {
     width: 70%;
   }
-  
+
   .home-input button {
     width: 25%;
   }
-  
+
   .business-model-heading p {
     right: 10rem;
   }
-  
+
   .interested-heading p {
     right: 10rem;
   }
-  
+
   .stage-heading p {
     right: 15rem;
   }
-  
+
   .funding-type-heading p {
     right: 10rem;
   }
-  
+
   .business-nature-heading p {
     right: 10rem;
   }
-  
+
   .investment-nature-heading p {
     right: 10rem;
+  }
+
+  .investment-nature-csr button {
+    width: 49%;
+  }
+
+  .investment-nature-all button {
+    width: 50%;
+    position: relative;
+    right: 18.5rem;
   }
 }
 
@@ -391,45 +410,55 @@ label {
   .scroll-container .firsth1 {
     font-size: 3rem;
   }
-  
+
   .scroll-container .secondh1 {
     font-size: 3rem;
   }
-  
+
   .home-text {
-    font-size: 1.2rem;
-    margin-left: 1rem;
+    font-size: 1rem;
+    margin-left: -15rem;
   }
-  
+
   .home-input input {
     width: 80%;
   }
-  
+
   .home-input button {
-    width: 35%;
+    width: 30%;
   }
-  
+
   .business-model-heading p {
     right: 5rem;
   }
-  
+
   .interested-heading p {
     right: 5rem;
   }
-  
+
   .stage-heading p {
     right: 8rem;
   }
-  
+
   .funding-type-heading p {
     right: 5rem;
   }
-  
+
   .business-nature-heading p {
     right: 5rem;
   }
-  
+
   .investment-nature-heading p {
     right: 5rem;
+  }
+
+  .investment-nature-csr button {
+    width: 100%;
+  }
+
+  .investment-nature-all button {
+    width: 100%;
+    position: relative;
+    right: 14.5rem;
   }
 }
