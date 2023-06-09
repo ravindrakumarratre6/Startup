@@ -1,0 +1,46 @@
+
+.investor-container{
+    margin-top: 55px;
+    padding-top:55px ;
+}
+.investor-heading{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+}
+.investor-meter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid gray;
+    border-left: none;
+    border-right: none;
+}
+
+.investor-meter li{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    margin-right:10rem ;
+}
+.investor-meter li h3{
+    font-weight:bold;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, sans-serif;
+}
+.investor-meter li p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.investor-paragraph{
+    font-family:sans-serif;
+    color: #666666;
+}
+.investore-list li{
+    font-size: 1.4rem;
+    font-weight: 300;
+  font-family: sans-serif;
+  color: gray;
+}

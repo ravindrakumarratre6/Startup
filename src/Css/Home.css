@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Default styles for all screen sizes */
+
+.home-container {
+  /* Styles for home container */
+}
+
+.scroll-container {
+  margin: 10rem;
+}
+
+.firsth1 {
+  animation: lefttoright 2s linear;
+}
+
+.secondh1 {
+  animation: righttoleft 2s linear;
+}
+
+/* Rest of the styles */
+
+/* Keyframes for animations */
+
+@keyframes lefttoright {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes righttoleft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.scroll-container .firsth1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+
+.scroll-container .secondh1 {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+/* Home scroll container */
+
+.home-scroll-container {
+  width: 100%;
+  height: 40rem;
+  background-image: url(https://startupz.world/images/other/banner.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.home-scroll-container::after {
+  content: "";
+  position: absolute;
+  bottom: -16rem;
+  left: 0;
+  right: 0;
+  height: 20rem; /* Adjust the height of the blur effect */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: blur(7px); /* Adjust the blur radius */
+}
+
+.home-text {
+  font-size: 1.5rem;
+  margin-left: -23rem;
+  margin-top: 1rem;
+}
+
+.home-input {
+  padding: 20px;
+  margin-top: 0.5rem;
+}
+
+.home-input input {
+  width: 55%;
+  height: 7rem;
+  margin-right: 1rem;
+}
+
+.home-input button {
+  width: 15%;
+  height: 7rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  background-color: red;
+}
+
+label {
+  position: relative;
+  right: 55%;
+  bottom: 2rem;
+  font-weight: 700;
+  color: #666666;
+}
+
+/* business-model-container */
+
+.business-model-container {
+  padding: 20px;
+}
+
+.business-model-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
+
+.business-model-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}
+
+.business-model-list div {
+  flex: 1 0 250px;
+}
+
+.business-model-list button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem;
+  border-radius: 2%;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+.last-btn button {
+  padding: 1.5rem;
+}
+
+/* INTERESTED */
+
+.interested-container {
+  padding: 20px;
+}
+
+.interested-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
+
+.interested-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.interested-list div {
+  flex: 1 0 250px;
+}
+
+.interested-list button {
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+  font-size: 1.55rem;
+  border-radius: 2%;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+.interested-lastbtn button {
+  width: 25%;
+}
+
+/* STAGE */
+
+.stage-container {
+  padding: 20px;
+}
+
+.stage-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 25rem;
+}
+
+.stage-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.stage-list div {
+  flex: 1 0 250px;
+}
+
+.stage-list button {
+  width: 100%;
+  padding: 30px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+/* FOUNDED-TYPE */
+
+.funding-type-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.funding-type-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
+
+.funding-type-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.funding-type-list div {
+  flex: 1 0 250px;
+}
+
+.funding-type-list button {
+  width: 100%;
+  padding: 30px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+.founding-type-fbtn button {
+  width: 74%;
+  gap: 0;
+  margin-left: 0;
+}
+
+.founding-type-gbtn button {
+  width: 74%;
+  gap: 0.5rem;
+  margin-left: -5.8rem;
+}
+
+.founding-type-hbtn button {
+  width: 74%;
+  gap: 0.5rem;
+  margin-left: -12rem;
+}
+
+/* BUSINESS-NATURE */
+
+.business-nature-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.business-nature-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
+
+.business-nature-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.business-nature-list div {
+  width: 100%;
+  padding: 5px;
+}
+
+.business-nature-list button {
+  width: 60%;
+  padding: 30px;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+/* INVESTMENT-NATURE */
+
+.investment-nature-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.investment-nature-heading p {
+  font-size: 2.5rem;
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
+
+.investment-nature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.investment-nature-list div {
+  flex: 1 0 250px;
+}
+
+.investment-nature-list button {
+  width: 100%;
+  padding: 30px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.001rem solid rgb(220, 217, 217);
+}
+
+/* MEDIA QUERIES */
+
+/* Styles for screens with a maximum width of 768px */
+
+@media screen and (max-width: 768px) {
+  .scroll-container .firsth1 {
+    font-size: 4rem;
+  }
+  
+  .scroll-container .secondh1 {
+    font-size: 4rem;
+  }
+  
+  .home-input input {
+    width: 70%;
+  }
+  
+  .home-input button {
+    width: 25%;
+  }
+  
+  .business-model-heading p {
+    right: 10rem;
+  }
+  
+  .interested-heading p {
+    right: 10rem;
+  }
+  
+  .stage-heading p {
+    right: 15rem;
+  }
+  
+  .funding-type-heading p {
+    right: 10rem;
+  }
+  
+  .business-nature-heading p {
+    right: 10rem;
+  }
+  
+  .investment-nature-heading p {
+    right: 10rem;
+  }
+}
+
+/* Styles for screens with a maximum width of 480px */
+
+@media screen and (max-width: 480px) {
+  .scroll-container .firsth1 {
+    font-size: 3rem;
+  }
+  
+  .scroll-container .secondh1 {
+    font-size: 3rem;
+  }
+  
+  .home-text {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
+  .home-input input {
+    width: 80%;
+  }
+  
+  .home-input button {
+    width: 35%;
+  }
+  
+  .business-model-heading p {
+    right: 5rem;
+  }
+  
+  .interested-heading p {
+    right: 5rem;
+  }
+  
+  .stage-heading p {
+    right: 8rem;
+  }
+  
+  .funding-type-heading p {
+    right: 5rem;
+  }
+  
+  .business-nature-heading p {
+    right: 5rem;
+  }
+  
+  .investment-nature-heading p {
+    right: 5rem;
+  }
+}

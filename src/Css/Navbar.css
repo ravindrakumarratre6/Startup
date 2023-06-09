@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+body {
+  /* margin: 0; */
+  padding: 5px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid red; */
+  background-color: white;
+  box-shadow: 5px 10px 5px white;
+  z-index: 9;
+  /* background-color: transparent; */
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 2px;
+  padding: 5px;
+}
+
+.navbar-list li {
+  margin-right: 10px;
+}
+
+.navbar-list li:last-child {
+  margin-right: 0;
+}
+.navbar-list{
+  flex: 1;
+}
+.navbar-list li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.navbar-list li a:hover {
+  color: red;
+}
+
+.imges img{
+flex: 1;
+}
+
+.navbar-list .imges img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.navbar-list .addbtn {
+  padding: 9px;
+  background-color: red;
+}
+
+.navbar-list .addbtn a {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-list .addbtn a:hover {
+  color: white;
+  background-color: red;
+}

@@ -1,0 +1,74 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.addlisting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .addlisting-heading p {
+    text-align: center;
+    /* border: 1px solid red; */
+    font-size: 3rem;
+  }
+  
+  .select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .startup-name,
+  .mobile-number,
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .startup-name .input input{
+    width: 50%;
+    padding: 10px;
+  }
+  .mobile-number .input input{
+    width: 50%;
+    padding: 10px;
+  }
+  .email .emails input{
+    width: 50%;
+    padding: 10px;
+  }
+  .mobile-number 
+  .username h4{
+    position: relative;
+    top: 1.3rem;
+  }
+  .mobile-number h4{
+    position: relative;
+    top: 1.3rem;
+    right: 15.5rem;
+  }
+  .email h4{
+    position: relative;
+    top: 1.3rem;
+    right: 17.4rem;
+  }
+  .username h4{
+    position: relative;
+    top: 1.3rem;
+    right: 15rem;
+  }
+  .select-container select option{
+    width: 50%;
+  }
+
+  .checkbox-paragraph p{
+      width: 56%;
+      position: relative;
+    left: 17rem;
+  }
+
+  
