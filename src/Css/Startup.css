@@ -24,9 +24,17 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* border: 2px solid black; */
+       animation: downup 2s linear;
     gap: 1rem;
   }
-  
+  @keyframes downup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
   .startup-list div {
     width: calc(100% / 3 - 1rem); /* Divide the width evenly among three items and subtract the gap */
     height: 15rem;
