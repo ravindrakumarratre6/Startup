@@ -19,7 +19,7 @@ const Home = () => {
         </div>
       </div>
 {/* Business Model */}
-      <div className="business-model-container">
+      <div className="business-model-container common">
           <h1>
             Explore By <b>Business Model</b>
           </h1>
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 {/*  Interested In*/}
-      <div className="interested-container">
+      <div className="interested-container common">
     
           <h1>
             Explore By <b>Interested In</b>
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
       </div>
 {/* Stage */}
-      <div className="stage-container">
+      <div className="stage-container common">
        
           <h1>
             Explore By <b>Stage</b>
@@ -110,7 +110,7 @@ const Home = () => {
         </div>
       </div>
 {/* Funding Type */}
-      <div className="funding-type-container">
+      <div className="funding-type-container common">
           <h1>
             Explore By <b>Funding Type</b>
           </h1>
@@ -151,7 +151,7 @@ const Home = () => {
         </div>
       </div>
 {/* Business Nature */}
-      <div className="business-nature-container">
+      <div className="business-nature-container  common">
           <h1>
             Explore By <b>Business Nature</b>{" "}
           </h1>
@@ -168,7 +168,7 @@ const Home = () => {
         </div>
       </div>
 {/*Investment Nature*/}
-      <div className="investment-nature-container">
+      <div className="investment-nature-container  common">
           <h1>
             Explore By <b>Investment Nature</b>
           </h1>
