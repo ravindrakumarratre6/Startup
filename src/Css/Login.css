@@ -39,12 +39,7 @@ body{
     color: white;
     background-color: rgb(238, 72, 72);
     border: 0.001rem solid rgb(220, 217, 217);
-  }
-  
-  p {
-    text-align: center;
-  }
-  
+  }  
   p a {
     text-decoration: none;
   }
