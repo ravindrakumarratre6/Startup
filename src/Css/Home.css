@@ -7,9 +7,6 @@ body {
 /* Default styles for all screen sizes */
 
 .home-container {
-  /* Styles for home container */
-  /* width: 100%; */
-/*   border: 2px solid black; */
   margin-top: 10px;
 }
 
@@ -92,12 +89,12 @@ body {
   filter: blur(7px); /* Adjust the blur radius */
 }
 
-.home-text p{
+.home-text .home-title {
   font-size: 1.5rem;
-  margin-right:30rem;
-   position: relative;
-   right: 5rem;
-   top: 5rem;
+  margin-right: 30rem;
+  position: relative;
+  right: -3.5rem;
+  top: 5rem;
 }
 
 .home-input {
@@ -351,6 +348,12 @@ label {
 .common:nth-child(2n+1){
   background-image: url(https://startupz.world/images/other/background-thedir-cover.jpg);
 }
+
+.title{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
 /* MEDIA QUERIES */
 
 /* Styles for screens with a maximum width of 768px */
@@ -398,6 +401,7 @@ label {
 
   .investment-nature-csr button {
     width: 49%;
+    
   }
 
   .investment-nature-all button {
@@ -417,12 +421,6 @@ label {
   .scroll-container .secondh1 {
     font-size: 3rem;
   }
-
-  .home-text {
-    font-size: 1rem;
-    margin-left: -15rem;
-  }
-
   .home-input input {
     width: 80%;
   }
