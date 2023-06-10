@@ -8,7 +8,7 @@ const Home = () => {
           <h1 className="secondh1">amazing startups</h1>
         </div>
         <div className="home-text">
-          <p>Find great startups curated by our experts for i</p>
+          <p className="home-title">Find great startups curated by our experts for i</p>
         </div>
         <div className="home-input">
           <input type="text" placeholder="Ex: Nearbygrocer,Nykaa,etc" />
@@ -19,10 +19,10 @@ const Home = () => {
         </div>
       </div>
 {/* Business Model */}
-      <div className="business-model-container common">
-          <h1>
+      <div className="business-model-container  common">
+          <p className="title">
             Explore By <b>Business Model</b>
-          </h1>
+          </p>
         <div className="business-model-list">
           <div>
             <button>B2B - Business To Business</button>
@@ -54,9 +54,9 @@ const Home = () => {
 {/*  Interested In*/}
       <div className="interested-container common">
     
-          <h1>
+          <p className="title">
             Explore By <b>Interested In</b>
-          </h1>
+          </p>
        
         <div className="interested-list">
           <div>
@@ -91,9 +91,9 @@ const Home = () => {
 {/* Stage */}
       <div className="stage-container common">
        
-          <h1>
+          <p className="title">
             Explore By <b>Stage</b>
-          </h1>
+          </p>
         <div className="stage-list">
           <div>
             <button>Ideation</button>
@@ -111,9 +111,9 @@ const Home = () => {
       </div>
 {/* Funding Type */}
       <div className="funding-type-container common">
-          <h1>
+          <p className="title">
             Explore By <b>Funding Type</b>
-          </h1>
+          </p>
         <div className="funding-type-list">
           <div>
             <button>Crowd Funded</button>
@@ -151,10 +151,10 @@ const Home = () => {
         </div>
       </div>
 {/* Business Nature */}
-      <div className="business-nature-container  common">
-          <h1>
-            Explore By <b>Business Nature</b>{" "}
-          </h1>
+      <div className="business-nature-container common">
+          <p className="title">
+            Explore By <b>Business Nature</b>
+          </p>
         <div className="business-nature-list">
           <div>
             <button>Service</button>
@@ -168,10 +168,10 @@ const Home = () => {
         </div>
       </div>
 {/*Investment Nature*/}
-      <div className="investment-nature-container  common">
-          <h1>
+      <div className="investment-nature-container common">
+          <p className="title">
             Explore By <b>Investment Nature</b>
-          </h1>
+          </p>
 
 
         <div className="investment-nature-list">
