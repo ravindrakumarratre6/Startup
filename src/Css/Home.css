@@ -117,6 +117,7 @@ body {
   font-size: 1.5rem;
   color: white;
   background-color: red;
+      cursor: pointer;
 }
 
 label {
@@ -151,6 +152,7 @@ label {
   font-size: 1.5rem;
   border-radius: 2%;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
 }
 
 .business-model-list button:hover {
@@ -187,6 +189,7 @@ label {
   font-size: 1.5rem;
   border-radius: 2%;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
 }
 
 .interested-list button:hover {
@@ -223,6 +226,8 @@ label {
   font-size: 1rem;
   font-weight: bold;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
+  
 }
 
 .stage-list button:hover {
@@ -256,6 +261,7 @@ label {
   font-size: 1rem;
   font-weight: bold;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
 }
 
 .funding-type-list button:hover {
@@ -304,6 +310,7 @@ label {
   width: 60%;
   padding: 30px;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
 }
 
 .business-nature-list button:hover {
@@ -338,6 +345,7 @@ label {
   font-size: 1rem;
   font-weight: bold;
   border: 0.001rem solid rgb(220, 217, 217);
+  cursor: pointer;
 }
 
 .investment-nature-list button:hover {
